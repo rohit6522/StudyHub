@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 html,
@@ -13,7 +14,7 @@ body {
 nav {
     background-color: whitesmoke;
     padding: 10px;
-    font-family: 'Poppins', sans-serif;
+
     position: fixed;
     width: 100%;
     top: 0;
@@ -62,14 +63,16 @@ nav ul li a:hover {
 /* Start container  */
 
 .container {
-    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    /* font-family: 'Poppins', sans-serif; */
     justify-content: space-between;
     display: flex;
     background-color: #DCDCDC;
 }
 
 .left {
-    padding: 100px;
+    margin-top: 6.5rem;
+    padding: 110px;
 }
 
 .left h1 {
@@ -83,7 +86,7 @@ nav ul li a:hover {
 }
 
 
-.btn{
+.btn {
     margin-top: 2rem;
 }
 
@@ -95,15 +98,212 @@ nav ul li a:hover {
     background-color: whitesmoke;
     color: blue;
 }
-#one{
+
+#one {
     background-color: blue;
     color: white;
 }
 
-.right img {    
-    margin-top: 6rem;
-    /* text-align: center; */
-    width: 50%;
-    border-radius: 40%;
-    border: 2px dotted red;
+.right img {
+    margin-top: 8rem;
+    width: 80%;
+    border-radius: 30%;
+    /* border: 2px dotted red; */
+        transition:0.3s;
+
+}
+
+.right img:hover{
+     transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* start secons page  */
+
+.second {
+    padding: 40px;
+}
+
+.choose {
+    text-align: center;
+}
+
+.choose h1 {
+    padding: 30px;
+    font: bold;
+    font-weight: 600;
+}
+
+.choose p {}
+
+/* box start  */
+
+.box {
+
+    display: grid;
+    text-align: start;
+    padding: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    line-height: 30px;
+
+}
+
+
+
+
+.fa-solid {
+    font-size: 40px;
+    height: 60px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+/* .logo1{
+        height: 100px;
+        width: 100px;
+} */
+/* box1  */
+
+.box1 {
+    transition: 0.3s;
+    padding: 20px;
+    /* border: 2px solid red; */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: whitesmoke;
+
+}
+
+.box1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.box1 h2 {
+    margin-top: 2rem;
+}
+
+.box1 p {
+    margin-top: 1.5rem;
+}
+
+
+
+.box2 {
+    transition: 0.3s;
+
+
+    padding: 20px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.box2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box2 h2 {
+    margin-top: 2rem;
+}
+
+.box2 p {
+    margin-top: 1.5rem;
+}
+
+.box3 {
+    transition: 0.3s;
+
+    padding: 20px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.box3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box3 h2 {
+    margin-top: 2rem;
+}
+
+.box3 p {
+    margin-top: 1.5rem;
+}
+
+.box4 {
+    transition: 0.3s;
+
+    padding: 20px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.box4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box4 h2 {
+    margin-top: 2rem;
+}
+
+.box4 p {
+    margin-top: 1.5rem;
+}
+
+.box5 {
+    transition: 0.3s;
+
+    padding: 20px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.box5:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box5 h2 {
+    margin-top: 2rem;
+}
+
+.box5 p {
+    margin-top: 1.5rem;
+}
+
+
+.box6 { 
+    transition: 0.3s;
+
+    padding: 20px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.box6:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box6 h2 {
+    margin-top: 2rem;
+}
+
+.box6 p {
+
+    margin-top: 1.5rem;
 }
